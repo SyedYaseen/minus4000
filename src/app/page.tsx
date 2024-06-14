@@ -9,7 +9,7 @@ export default function Home() {
   let weeksLeft = 4000 - weeksPassed
   
   return (
-    <main className="flex h-screen flex-col justify-between py-8 px-6">
+    <main className="flex h-screen flex-col justify-between py-8 bg-slate-950">
       <BigNos num={weeksLeft} pos="top" />
       <Grid maxWeek={weeksLeft}/>
       <BigNos num={weeksPassed} pos="bottom" />

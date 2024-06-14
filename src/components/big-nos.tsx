@@ -5,7 +5,7 @@ const BigNos = ({num, pos}: {num: number, pos: string}) => {
     const posClass = pos === "top" ? top : bottom
 
   return (
-    <div className={cn( "text-8xl flex flex-col" , posClass) }>
+    <div className={cn( "text-8xl flex flex-col px-6" , posClass) }>
       {num}
       <span className={cn("text-sm", pos === "top" ? "pl-3" : "pr-2")}>
         Weeks {pos === "top" ? "left" : "complete"}
